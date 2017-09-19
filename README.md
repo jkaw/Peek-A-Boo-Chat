@@ -16,11 +16,8 @@ RULES for iCu:
 
   The client portion of your software will scan for computers with port 28900 open, and connect as above.  Upon successfully encountering and querying a server, it will open a connection on port 28900 on pilot.westmont.edu and using HTTP GET syntax, browse to the following URL:
 
-  http://pilot.westmont.edu:28900?i=<your (Links to an external site.) userID>&u=<their userID>&where=<their connection> 
-
   e.g. 
 
-  http://pilot.westmont.edu:28900?i=rodkey&u=rwilder&where=vl-1a-wap3 (Links to an external site.)
 
   Use select to make sure that both the server and client can run independently.
 
